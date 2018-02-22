@@ -2,7 +2,7 @@
 Viewed such topics as collections hierarchy, `ArrayList`, `LinkedList`, `HashSet`, `TreeSet`, `HashMap`, `TreeMap`, computational complexity, overriding `equals()` and `hashcode()`.
 ## Completed tasks
 ### 1. Entity
-There are `EntityA`, `EntityB`, `EntityC`
+There are `EntityA`, `EntityB`, `EntityC`:
 ```
 public class EntityA {
     private int age;
