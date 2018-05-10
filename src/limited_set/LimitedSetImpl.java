@@ -31,6 +31,7 @@ public class LimitedSetImpl<T> implements LimitedSet<T> {
                     }
                 }
                 data[index] = t;
+                calls[index] = 0;
                 break;
             default:
                 if (t == null) { // check for null
