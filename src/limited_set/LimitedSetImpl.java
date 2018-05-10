@@ -105,8 +105,8 @@ public class LimitedSetImpl<T> implements LimitedSet<T> {
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder();
-        for (T elem : data) {
-            result.append(elem).append(" ");
+        for (int i = 0; i < size; i++) {
+            result.append(data[i]).append(" ");
         }
         return result.toString();
     }
